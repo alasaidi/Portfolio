@@ -7,6 +7,98 @@
     <title>Ala Saidi Portfolio</title>
   </head>
   <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="./style/images/logo.png" class="logo" alt="logo" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>WEB/GAME developer</p>
+          <h1>Hi, I'm <span>Ala</span><br />from Tunisia</h1>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------------about------------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./style/images/user.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p class="sub-title">
+              Am a highly efficient and accurate worker, capable of producing a
+              large volume of high quality work. I am well-organized and
+              dedicated, able to handle multiple tasks and projects
+              simultaneously. My strong communication skills, both verbal and
+              written, enable me to quickly learn and effectively execute new
+              projects.In addition to my technical skills, I also possess strong
+              problem-solving abilities and am able to think critically and
+              creatively to find solutions to any challenges that may arise. I
+              am a team player and thrive in collaborative environments, always
+              willing to lend a hand and share my knowledge with others.
+              Overall, I am confident in my ability to exceed expectations and
+              make valuable contributions to any organization.
+            </p>
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="openTab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="openTab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="openTab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Game Development</span><br />design and Coding Game
+                </li>
+                <li><span>Web Development</span><br />Web app Development</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span> 23/05/2023 – Current </span><br />
+                  Project coordinator at service civil international
+                </li>
+                <li>
+                  <span>31/12/2021 – 30/04/2023</span><br />
+                  IT Manager at Lassoued painting company
+                </li>
+                <li>
+                  <span>3/01/2019 – 13/04/2019</span><br />
+                  Game Developer intern at Mobge LTD
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span> 13/09/2019 – 15/12/2021 </span><br />E-commerce Master
+                  degree<br />
+                  At higher institute of management Gabes, Tunisia
+                </li>
+                <li>
+                  <span> 13/09/2016 – 20/06/2019 ]</span><br />IT management
+                  Bachelor's degree <br />At higher institute of management
+                  Gabes, Tunisia
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="./src/main.js"></script>
   </body>
 </html>
