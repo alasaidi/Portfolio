@@ -1,214 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style/style.css" />
-    <script
-      src="https://kit.fontawesome.com/dde6c313b0.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Ala Saidi Portfolio</title>
-  </head>
-  <body>
-    <div id="header">
-      <div class="container">
-        <nav>
-          <img src="./style/images/logo.png" class="logo" alt="logo" />
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-        <div class="header-text">
-          <p>WEB/GAME developer</p>
-          <h1>Hi, I'm <span>Ala</span><br />from Tunisia</h1>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style/style.css" />
+  <script src="https://kit.fontawesome.com/dde6c313b0.js" crossorigin="anonymous"></script>
+  <title>Ala Saidi Portfolio</title>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="./style/images/logo.png" class="logo" alt="logo" />
+        <ul id="sideMenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark"></i>
+        </ul>
+        <i class="fa-solid fa-bars"></i>
+      </nav>
+      <div class="header-text">
+        <p>WEB/GAME developer</p>
+        <h1>Hi, I'm <span>Ala</span><br />from Tunisia</h1>
       </div>
     </div>
-    <!-- --------------------------about------------------------- -->
-    <div id="about">
-      <div class="container">
-        <div class="row">
-          <div class="about-col-1">
-            <img src="./style/images/user.png" alt="" />
-          </div>
-          <div class="about-col-2">
-            <h1 class="sub-title">About Me</h1>
-            <p>
-              I'am a highly efficient and accurate worker, capable of producing
-              a large volume of high quality work. I am well-organized and
-              dedicated, able to handle multiple tasks and projects
-              simultaneously. My strong communication skills, both verbal and
-              written, enable me to quickly learn and effectively execute new
-              projects.<br />In addition to my technical skills, I also possess
-              strong problem-solving abilities and am able to think critically
-              and creatively to find solutions to any challenges that may arise.
-              I am a team player and thrive in collaborative environments,
-              always willing to lend a hand and share my knowledge with others.
-              Overall, I am confident in my ability to exceed expectations and
-              make valuable contributions to any organization.
+  </div>
+  <!-- --------------------------about------------------------- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="./style/images/user.png" alt="" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>
+            I'am a highly efficient and accurate worker, capable of producing
+            a large volume of high quality work. I am well-organized and
+            dedicated, able to handle multiple tasks and projects
+            simultaneously. My strong communication skills, both verbal and
+            written, enable me to quickly learn and effectively execute new
+            projects.<br />In addition to my technical skills, I also possess
+            strong problem-solving abilities and am able to think critically
+            and creatively to find solutions to any challenges that may arise.
+            I am a team player and thrive in collaborative environments,
+            always willing to lend a hand and share my knowledge with others.
+            Overall, I am confident in my ability to exceed expectations and
+            make valuable contributions to any organization.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="openTab('skills')">
+              Skills
             </p>
-            <div class="tab-titles">
-              <p class="tab-links active-link" onclick="openTab('skills')">
-                Skills
-              </p>
-              <p class="tab-links" onclick="openTab('experience')">
-                Experience
-              </p>
-              <p class="tab-links" onclick="openTab('education')">Education</p>
-            </div>
-            <div class="tab-contents active-tab" id="skills">
-              <ul>
-                <li>
-                  <span>Game Development</span><br />design and Coding Game
-                </li>
-                <li><span>Web Development</span><br />Web app Development</li>
-              </ul>
-            </div>
-            <div class="tab-contents" id="experience">
-              <ul>
-                <li>
-                  <span> 23/05/2023 – Current </span><br />
-                  Project coordinator at service civil international
-                </li>
-                <li>
-                  <span>31/12/2021 – 30/04/2023</span><br />
-                  IT Manager at Lassoued painting company
-                </li>
-                <li>
-                  <span>3/01/2019 – 13/04/2019</span><br />
-                  Game Developer intern at Mobge LTD
-                </li>
-              </ul>
-            </div>
-            <div class="tab-contents" id="education">
-              <ul>
-                <li>
-                  <span> 13/09/2019 – 15/12/2021 </span><br />E-commerce Master
-                  degree<br />
-                  At higher institute of management Gabes, Tunisia
-                </li>
-                <li>
-                  <span> 13/09/2016 – 20/06/2019 ]</span><br />IT management
-                  Bachelor's degree <br />At higher institute of management
-                  Gabes, Tunisia
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- -------------------services---------------- -->
-    <div id="services">
-      <div class="container">
-        <h1 class="sub-title">My Services</h1>
-        <div class="services-list">
-          <div>
-            <i class="fa-solid fa-code"></i>
-            <h2>web Development</h2>
-            <p>
-              implementing the visual elements and interactive features of a
-              website. Using HTML, CSS, and JavaScript, the front end portion of
-              web applications are developed that users engage with directly.
-              Responsibilities include creating responsive page layouts, user
-              interface components, animations, and effects to enhance the user
-              experience. The work ensures web designs are optimized for
-              performance across different devices and browsers.
+            <p class="tab-links" onclick="openTab('experience')">
+              Experience
             </p>
-            <a href="#">Learn More</a>
+            <p class="tab-links" onclick="openTab('education')">Education</p>
           </div>
-          <div>
-            <i class="fa-solid fa-gamepad"></i>
-            <h2>Game Development</h2>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li>
+                <span>Game Development</span><br />design and Coding Game
+              </li>
+              <li><span>Web Development</span><br />Web app Development</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li>
+                <span> 23/05/2023 – Current </span><br />
+                Project coordinator at service civil international
+              </li>
+              <li>
+                <span>31/12/2021 – 30/04/2023</span><br />
+                IT Manager at Lassoued painting company
+              </li>
+              <li>
+                <span>3/01/2019 – 13/04/2019</span><br />
+                Game Developer intern at Mobge LTD
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>
+                <span> 13/09/2019 – 15/12/2021 </span><br />E-commerce Master
+                degree<br />
+                At higher institute of management Gabes, Tunisia
+              </li>
+              <li>
+                <span> 13/09/2016 – 20/06/2019 ]</span><br />IT management
+                Bachelor's degree <br />At higher institute of management
+                Gabes, Tunisia
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- -------------------services---------------- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>web Development</h2>
+          <p>
+            implementing the visual elements and interactive features of a
+            website. Using HTML, CSS, and JavaScript, the front end portion of
+            web applications are developed that users engage with directly.
+            Responsibilities include creating responsive page layouts, user
+            interface components, animations, and effects to enhance the user
+            experience. The work ensures web designs are optimized for
+            performance across different devices and browsers.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-gamepad"></i>
+          <h2>Game Development</h2>
+          <p>
+            Developing interactive video games across platforms like mobile,
+            console, and PC. Using languages like C#, Java, game engines like
+            Unity are utilized to program game logic, mechanics, systems, and
+            gameplay features. Responsibilities include designing and
+            implementing game physics, artificial intelligence, level design,
+            user interfaces, controls, animations, audio integration, and
+            visual effects.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- -------------------Portfolio---------------- -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="./style/images/work-1.png" alt="work1" />
+          <div class="layer">
+            <h3>Simple Calculator app</h3>
             <p>
-              Developing interactive video games across platforms like mobile,
-              console, and PC. Using languages like C#, Java, game engines like
-              Unity are utilized to program game logic, mechanics, systems, and
-              gameplay features. Responsibilities include designing and
-              implementing game physics, artificial intelligence, level design,
-              user interfaces, controls, animations, audio integration, and
-              visual effects.
+              The calculator project uses HTML, CSS and JavaScript. HTML
+              provides the structure. CSS styles the calculator buttons and
+              display. JavaScript implements the logic, storing values,
+              detecting clicks, performing calculations, and outputting the
+              results.
             </p>
-            <a href="#">Learn More</a>
+            <a href="@"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="./style/images/work-2.png" alt="work2" />
+          <div class="layer">
+            <h3>Computer Store Landing Page</h3>
+            <p>
+              The computer store landing page showcases a responsive web
+              design using HTML, CSS and JavaScript. HTML provides the content
+              and structure for the header, product sections, testimonials and
+              footer
+            </p>
+            <a href="@"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="./style/images/work-3.png" alt="work3" />
+          <div class="layer">
+            <h3>My Portfolio</h3>
+            <p>
+              The personal portfolio website showcases my skills and projects
+              as a web developer.
+            </p>
+            <a href="@"><i class="fa-brands fa-github"></i></a>
           </div>
         </div>
       </div>
+      <a href="#" class="btn">See More</a>
     </div>
-    <!-- -------------------Portfolio---------------- -->
-    <div id="portfolio">
-      <div class="container">
-        <h1 class="sub-title">My Work</h1>
-        <div class="work-list">
-          <div class="work">
-            <img src="./style/images/work-1.png" alt="work1" />
-            <div class="layer">
-              <h3>Simple Calculator app</h3>
-              <p>
-                The calculator project uses HTML, CSS and JavaScript. HTML
-                provides the structure. CSS styles the calculator buttons and
-                display. JavaScript implements the logic, storing values,
-                detecting clicks, performing calculations, and outputting the
-                results.
-              </p>
-              <a href="@"><i class="fa-brands fa-github"></i></a>
-            </div>
+  </div>
+  <!-- -------------------contact------------------ -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-envelope"></i>alasaidi55@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>+32467822216</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/ala.saidi.58"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/ala.saidi_/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/ala-saidi-898616176/"> <i class="fa-brands fa-linkedin"></i></a>
           </div>
-          <div class="work">
-            <img src="./style/images/work-2.png" alt="work2" />
-            <div class="layer">
-              <h3>Computer Store Landing Page</h3>
-              <p>
-                The computer store landing page showcases a responsive web
-                design using HTML, CSS and JavaScript. HTML provides the content
-                and structure for the header, product sections, testimonials and
-                footer
-              </p>
-              <a href="@"><i class="fa-brands fa-github"></i></a>
-            </div>
-          </div>
-          <div class="work">
-            <img src="./style/images/work-3.png" alt="work3" />
-            <div class="layer">
-              <h3>My Portfolio</h3>
-              <p>
-                The personal portfolio website showcases my skills and projects
-                as a web developer.
-              </p>
-              <a href="@"><i class="fa-brands fa-github"></i></a>
-            </div>
-          </div>
+          <a href="./style/images/CV.pdf" download class="btn btn2">Download CV</a>
         </div>
-        <a href="#" class="btn">See More</a>
-      </div>
-    </div>
-    <!-- -------------------contact------------------ -->
-    <div id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="contact-left">
-            <h1 class="sub-title">Contact Me</h1>
-            <p><i class="fa-solid fa-envelope"></i>alasaidi55@gmail.com</p>
-            <p><i class="fa-solid fa-phone"></i>+32467822216</p>
-            <div class="social-icons">
-              <a href="https://www.facebook.com/ala.saidi.58"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://www.instagram.com/ala.saidi_/"><i class="fa-brands fa-instagram"></i></a>
-             <a href="https://www.linkedin.com/in/ala-saidi-898616176/"> <i class="fa-brands fa-linkedin"></i></a>
-            </div>
-            <a href="./style/images/CV.pdf" download class="btn btn2">Download CV</a>
-          </div>
-         <div class="contact-right">
-          <form action="">
-            <input type="text" name="name" placeholder="Your Name" required >
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="Message" id="" cols="" rows="6" placeholder="Yur Message"></textarea>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
             <button type="submit" class="btn btn2">Submit</button>
           </form>
-         </di>
+          <span id="msg"></span>
+          </di>
         </div>
       </div>
     </div>
@@ -216,5 +218,6 @@
       <p> developed by Ala Saidi &copy; <i class="fa-solid fa-heart"></i></p>
     </div>
     <script src="./src/main.js"></script>
-  </body>
+</body>
+
 </html>
