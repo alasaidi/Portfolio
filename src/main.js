@@ -1,9 +1,7 @@
 // Get tab elements
 const tabLinks = document.getElementsByClassName("tab-links");
 const tabContents = document.getElementsByClassName("tab-contents");
-const sideMenu = document.getElementById("sideMenu");
-const openIcon = document.querySelector(".fa-bars");
-const closeIcon = document.querySelector(".fa-xmark");
+
 // Tab toggle function
 function openTab(tabName, e) {
   // Remove active classes
@@ -17,7 +15,10 @@ function openTab(tabName, e) {
   event.currentTarget.classList.add("active-link");
   document.getElementById(tabName).classList.add("active-tab");
 }
-
+// ----------open and close menubar--------------
+const sideMenu = document.getElementById("sideMenu");
+const openIcon = document.querySelector(".fa-bars");
+const closeIcon = document.querySelector(".fa-xmark");
 openIcon.addEventListener("click", () => {
   openMenu();
 });
@@ -32,7 +33,7 @@ const closeMenu = () => {
   sideMenu.style.right = "-200px";
 };
 
---------
+// --------Submit a Form to Google Sheets-------------
 const scriptURL =
   "https://script.google.com/macros/s/AKfycbzJB3GXTebEKbHvIJigwhK_IWR8_pXoiYYGyxi-sPQofRt8yQDwScGAyImsTdYdnGke/exec";
 const form = document.forms["submit-to-google-sheet"];
