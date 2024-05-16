@@ -34,8 +34,7 @@ const closeMenu = () => {
 };
 
 // --------Submit a Form to Google Sheets-------------
-const scriptURL =
-  "https://script.google.com/macros/s/AKfycbzJB3GXTebEKbHvIJigwhK_IWR8_pXoiYYGyxi-sPQofRt8yQDwScGAyImsTdYdnGke/exec";
+const scriptURL = "https://script.google.com/macros/s/AKfycbzJB3GXTebEKbHvIJigwhK_IWR8_pXoiYYGyxi-sPQofRt8yQDwScGAyImsTdYdnGke/exec";
 const form = document.forms["submit-to-google-sheet"];
 const msg = document.getElementById("msg");
 
