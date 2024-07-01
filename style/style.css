@@ -27,13 +27,7 @@ body {
   padding: 0.625rem 1rem;
   border-radius: 0.25rem;
   text-decoration: none;
-  background-image: webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#000000),
-    to(#ff004f)
-  );
+  background-image: webkit-gradient(linear, left top, left bottom, from(#000000), to(#ff004f));
   background-image: linear-gradient(to right, #000000, #ff004f);
 }
 .container {
@@ -131,7 +125,7 @@ nav ul li a:hover::after {
 }
 .tab-titles {
   display: flex;
-  margin: 20px 0 40px;
+  margin: 15px 0 15px;
 }
 .tab-links {
   margin-right: 50px;
