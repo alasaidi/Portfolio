@@ -126,6 +126,12 @@ nav ul li a:hover::after {
   font-weight: 600;
   color: white;
 }
+.about-col-2 p {
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+}
 .sub-titles {
   text-align: justify;
 }
@@ -193,6 +199,12 @@ nav ul li a:hover::after {
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 15px;
+}
+.services-list div p {
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
 }
 .services-list div a {
   text-decoration: none;
