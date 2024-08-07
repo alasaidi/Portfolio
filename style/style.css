@@ -27,13 +27,7 @@ body {
   padding: 0.625rem 1rem;
   border-radius: 0.25rem;
   text-decoration: none;
-  background-image: webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#000000),
-    to(#ff004f)
-  );
+  background-image: webkit-gradient(linear, left top, left bottom, from(#000000), to(#ff004f));
   background-image: linear-gradient(to right, #000000, #ff004f);
 }
 .container {
@@ -103,7 +97,7 @@ nav ul li a:hover::after {
 }
 /* -------------------ABOUT--------------------- */
 #about {
-  padding: 80px 0;
+  padding: 20px 0;
   color: #ababab;
 }
 .row {
@@ -116,6 +110,7 @@ nav ul li a:hover::after {
 }
 .about-col-1 img {
   width: 100%;
+
   border-radius: 15px;
 }
 .about-col-2 {
@@ -377,13 +372,18 @@ nav .fa-solid {
 @media only screen and (max-width: 500px) {
   #header {
     background-image: url(../public/assets/phone-background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   .header-text {
-    margin-top: 100%;
     font-size: 16px;
   }
   .header-text h1 {
-    font-size: 30px;
+    font-size: 60px;
+  }
+  .header-text h2 {
+    font-size: 27px;
   }
   nav .fa-solid {
     display: block;
@@ -416,10 +416,14 @@ nav .fa-solid {
   .about-col-1,
   .about-col-2 {
     flex-basis: 100%;
+    font-size: 15px;
   }
   .about-col-1 {
     margin-bottom: 30px;
     font-size: 40px;
+  }
+  .about-col-1 img {
+    width: 100%;
   }
   .tab-links {
     font-size: 16px;
@@ -434,13 +438,22 @@ nav .fa-solid {
 @media only screen and (max-width: 800px) {
   #header {
     background-image: url(../public/assets/phone-background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #about {
+    padding-bottom: 10px;
+    padding-top: 20px;
   }
   .header-text {
-    margin-top: 100%;
     font-size: 16px;
   }
   .header-text h1 {
-    font-size: 30px;
+    font-size: 60px;
+  }
+  .header-text h2 {
+    font-size: 27px;
   }
   nav .fa-solid {
     display: block;
@@ -477,6 +490,9 @@ nav .fa-solid {
   .about-col-1 {
     margin-bottom: 30px;
     font-size: 40px;
+  }
+  .about-col-1 img {
+    width: 60%;
   }
   .tab-links {
     font-size: 16px;
