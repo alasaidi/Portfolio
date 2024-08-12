@@ -5,269 +5,276 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./style/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <script src="https://kit.fontawesome.com/dde6c313b0.js" crossorigin="anonymous"></script>
   <title>Ala Saidi Portfolio</title>
 </head>
 
 <body>
-  <div id="header">
-    <div class="container">
-      <nav>
-        <img src="./public/assets/logo.png" class="logo" alt="logo" />
-        <ul id="sideMenu">
-          <li><a href="#header">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <i class="fa-solid fa-xmark"></i>
-        </ul>
-        <i class="fa-solid fa-bars"></i>
-      </nav>
-      <div class="header-text home__information">
-        <h3>Hello, My Name is</h3>
-        <h1><span>Ala</span> Saidi<br /></h1>
-        <h2>Web & Game developer</h2>
-        <div>
-          <a href="./public/CV.pdf" download class="home__button anime-text">DOWNLOAD CV</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- --------------------------about------------------------- -->
-  <div id="about">
-    <div class="container">
-      <div class="row">
-        <div class="about-col-1">
-          <img src="./public/assets/user.png" alt="" />
-        </div>
-        <div class="about-col-2">
-          <h1 class="sub-title">About Me</h1>
-          <p>
-            I'am a highly efficient and accurate worker, capable of producing
-            a large volume of high quality work. I am well-organized and
-            dedicated, able to handle multiple tasks and projects
-            simultaneously. My strong communication skills, both verbal and
-            written, enable me to quickly learn and effectively execute new
-            projects.<br />In addition to my technical skills, I also possess
-            strong problem-solving abilities and am able to think critically
-            and creatively to find solutions to any challenges that may arise.
-            I am a team player and thrive in collaborative environments,
-            always willing to lend a hand and share my knowledge with others.
-            Overall, I am confident in my ability to exceed expectations and
-            make valuable contributions to any organization.
-          </p>
-          <div class="tab-titles">
-            <p class="tab-links active-link" onclick="openTab('skills')">
-              Skills
-            </p>
-            <p class="tab-links" onclick="openTab('education')">Education</p>
-            <p class="tab-links" onclick="openTab('experience')">
-              Experience
-            </p>
-          </div>
-          <div class="tab-contents active-tab" id="skills">
-            <ul>
-              <li>
-                <span>Game Development</span><br /><a
-                  href="https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/" target="_blank"
-                  rel="noreferrer"><img
-                    src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/csharp/csharp-line.svg"
-                    alt="csharp" width="40" height="40" /></a><a href="https://unity.com/" target="_blank"
-                  rel="noreferrer"><img
-                    src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/unity/unity-original.svg"
-                    alt="unity" width="40" height="40" /></a>
-              </li>
-              <li>
-                <span>Web Development</span><br /><a href="https://www.w3.org/css/" alt="CSS3" width="40"
-                  height="40"><img
-                    src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/css3/css3-plain.svg"
-                    alt="css3" width="40" height="40" /></a><a href="https://www.w3.org/html/" target="_blank"
-                  rel="noreferrer"><img
-                    src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/html5/html5-plain.svg"
-                    alt="html5" width="40" height="40" /></a><a
-                  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img
-                    src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/javascript/javascript-plain.svg"
-                    alt="javascript" width="40" height="40" /></a><a
-                  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img
-                    src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/jest/jest-plain.svg"
-                    alt="jest" width="40" height="40" /></a><a
-                  href="https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet" alt="css3" width="40"
-                  height="40"><img
-                    src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/dot-net/dot-net-plain.svg"
-                    alt="csharp" width="40" height="40" /></a>
-                <a href="https://nodejs.org/en" target="_blank" rel="noreferrer"><img
-                    src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/nodejs/nodejs-original-wordmark.svg"
-                    alt="nodejs" width="60" height="50" /></a>
-                <a href="https://mongodb.com/" target="_blank" rel="noreferrer"><img
-                    src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/mongodb/mongodb-original-wordmark.svg"
-                    alt="nodejs" width="40" height="40" /></a>
-                <a href="https://react.com/" target="_blank" rel="noreferrer"><img
-                    src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/react/react-original-wordmark.svg"
-                    alt="React" width="40" height="40" /></a>
-              </li>
-              <li>
-                <span>UI/UX</span><br />
-                <a href="https://www.figma.com" target="_blank" rel="noreferrer"><img
-                    src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/figma/figma-original.svg"
-                    alt="html5" width="40" height="40" /></a><a href="https://www.figma.com/en" target="_blank"
-                  rel="noreferrer"><img
-                    src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/photoshop/photoshop-original.svg"
-                    alt="photoshop" width="40" height="40" /></a>
-              </li>
-            </ul>
-          </div>
-          <div class="tab-contents" id="education">
-            <ul>
-              <li>
-                <span> 01/2024 – Current </span><br />Full-Stack
-                Development<br />
-                Hack Your Future Coding School, Belgium
-              </li>
-              <li>
-                <span> 09/2019 – 12/2021 </span><br />E-commerce Master
-                degree<br />
-                At higher institute of management Gabes, Tunisia
-              </li>
-              <li>
-                <span> 09/2016 – 06/2019 ]</span><br />IT management
-                Bachelor's degree <br />At higher institute of management
-                Gabes, Tunisia
-              </li>
-            </ul>
-          </div>
-          <div class="tab-contents" id="experience">
-            <ul>
-              <li>
-                <span> 05/2023 – 04/2024 </span><br />
-                Project coordinator at service civil international
-              </li>
-              <li>
-                <span>12/2021 – 04/2023</span><br />
-                IT Manager at Lassoued painting company
-              </li>
-              <li>
-                <span>01/2019 – 04/2019</span><br />
-                Game Developer Intern at Mobge LTD
-              </li>
-            </ul>
+  <div class="view">
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="./public/assets/logo.png" class="logo fadein-item" alt="logo" />
+          <ul id="sideMenu">
+            <li class="fadein-item"><a href="#header">Home</a></li>
+            <li class="fadein-item"><a href="#about">About</a></li>
+            <li class="fadein-item"><a href="#services">Services</a></li>
+            <li class="fadein-item"><a href="#portfolio">Portfolio</a></li>
+            <li class="fadein-item"><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark"></i>
+          </ul>
+          <i class="fa-solid fa-bars"></i>
+        </nav>
+        <div class="header-text home__information animated-element">
+          <h3 class="fadein-item">Hello, My Name is</h3>
+          <h1 class="fadein-item"><span>Ala</span> Saidi<br /></h1>
+          <h2 class="fadein-item">Web & Game developer</h2>
+          <div class="fadein-item">
+            <a href="./public/CV.pdf" download
+              class="home__button  animate__animated animate__headShake animate__infinite">DOWNLOAD CV</a>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- -------------------services---------------- -->
-  <div id="services">
-    <div class="container">
-      <h1 class="sub-title">My Services</h1>
-      <div class="services-list">
-        <div>
-          <i class="fa-solid fa-code"></i>
-          <h2>web Development</h2>
-          <p>
-            Developing comprehensive web applications using the MERN (MongoDB,
-            Express.js, React, Node.js) stack. Leveraging MongoDB for flexible
-            and scalable database management, React for dynamic and responsive
-            user interfaces, and Node.js for efficient server-side JavaScript
-            runtime. Responsibilities include designing and implementing
-            RESTful APIs, creating interactive front-end components and
-            ensuring seamless data flow between client and server. The work
-            involves building scalable, high-performance single-page
-            applications that provide rich user experiences and efficient data
-            handling across the full stack.
-          </p>
-        </div>
-        <div>
-          <i class="fa-solid fa-gamepad"></i>
-          <h2>Game Development</h2>
-          <p>
-            Developing interactive video games across platforms like mobile,
-            console, and PC. Using languages like C#, Java, game engines like
-            Unity are utilized to program game logic, mechanics, systems, and
-            Gameplay features. Responsibilities include designing and
-            implementing game physics, artificial intelligence, level design,
-            user interfaces, controls, animations, audio integration, and
-            visual effects.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- -------------------Portfolio---------------- -->
-  <div id="portfolio">
-    <div class="container">
-      <h1 class="sub-title">My Work</h1>
-      <div class="work-list">
-        <div class="work">
-          <img src="./public/assets/work-1.png" alt="work1" />
-          <div class="layer">
-            <h3>McLaren Website Landing Page</h3>
+    <!-- --------------------------about------------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row animated-element">
+          <div class="about-col-1">
+            <img src="./public/assets/user.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
             <p>
-              Sleek Sports Car Website Landing Page: HTML, CSS, JS, Carousel!
-              🏎️✨
+              I'am a highly efficient and accurate worker, capable of producing
+              a large volume of high quality work. I am well-organized and
+              dedicated, able to handle multiple tasks and projects
+              simultaneously. My strong communication skills, both verbal and
+              written, enable me to quickly learn and effectively execute new
+              projects.<br />In addition to my technical skills, I also possess
+              strong problem-solving abilities and am able to think critically
+              and creatively to find solutions to any challenges that may arise.
+              I am a team player and thrive in collaborative environments,
+              always willing to lend a hand and share my knowledge with others.
+              Overall, I am confident in my ability to exceed expectations and
+              make valuable contributions to any organization.
             </p>
-            <a href="https://github.com/alasaidi/McLaren-Website-Landing-Page" target="_blank"><i
-                class="fa-brands fa-github"></i></a>
-          </div>
-        </div>
-        <div class="work">
-          <img src="./public/assets/work-3.png" alt="work2" />
-          <div class="layer">
-            <h3>Weather App</h3>
-            <p>
-              Weather app allows users to check the weather for any of their
-              favorite cities. All cities that are saved to Core Data will be
-              listed on the initial view controller.
-            </p>
-            <a href="https://github.com/alasaidi/Weather-App" target="_blank"><i class="fa-brands fa-github"></i></a>
-          </div>
-        </div>
-        <div class="work">
-          <img src="./public/assets/dragonball-api.PNG" alt="work3" />
-          <div class="layer">
-            <h3>My Portfolio</h3>
-            <p>
-              This project showcases the usage of the Dragon Ball API
-              (https://dragonball-api.com/api/characters) to fetch and display
-              character information from the popular anime series Dragon Ball.
-            </p>
-            <a href="https://github.com/alasaidi/dragonball-api" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="openTab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="openTab('education')">Education</p>
+              <p class="tab-links" onclick="openTab('experience')">
+                Experience
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Game Development</span><br /><a
+                    href="https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/" target="_blank"
+                    rel="noreferrer"><img
+                      src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/csharp/csharp-line.svg"
+                      alt="csharp" width="40" height="40" /></a><a href="https://unity.com/" target="_blank"
+                    rel="noreferrer"><img
+                      src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/unity/unity-original.svg"
+                      alt="unity" width="40" height="40" /></a>
+                </li>
+                <li>
+                  <span>Web Development</span><br /><a href="https://www.w3.org/css/" alt="CSS3" width="40"
+                    height="40"><img
+                      src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/css3/css3-plain.svg"
+                      alt="css3" width="40" height="40" /></a><a href="https://www.w3.org/html/" target="_blank"
+                    rel="noreferrer"><img
+                      src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/html5/html5-plain.svg"
+                      alt="html5" width="40" height="40" /></a><a
+                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img
+                      src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/javascript/javascript-plain.svg"
+                      alt="javascript" width="40" height="40" /></a><a
+                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img
+                      src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/jest/jest-plain.svg"
+                      alt="jest" width="40" height="40" /></a><a
+                    href="https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet" alt="css3" width="40"
+                    height="40"><img
+                      src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/dot-net/dot-net-plain.svg"
+                      alt="csharp" width="40" height="40" /></a>
+                  <a href="https://nodejs.org/en" target="_blank" rel="noreferrer"><img
+                      src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/nodejs/nodejs-original-wordmark.svg"
+                      alt="nodejs" width="60" height="50" /></a>
+                  <a href="https://mongodb.com/" target="_blank" rel="noreferrer"><img
+                      src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/mongodb/mongodb-original-wordmark.svg"
+                      alt="nodejs" width="40" height="40" /></a>
+                  <a href="https://react.com/" target="_blank" rel="noreferrer"><img
+                      src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/react/react-original-wordmark.svg"
+                      alt="React" width="40" height="40" /></a>
+                </li>
+                <li>
+                  <span>UI/UX</span><br />
+                  <a href="https://www.figma.com" target="_blank" rel="noreferrer"><img
+                      src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/figma/figma-original.svg"
+                      alt="html5" width="40" height="40" /></a><a href="https://www.figma.com/en" target="_blank"
+                    rel="noreferrer"><img
+                      src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/photoshop/photoshop-original.svg"
+                      alt="photoshop" width="40" height="40" /></a>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span> 01/2024 – Current </span><br />Full-Stack
+                  Development<br />
+                  Hack Your Future Coding School, Belgium
+                </li>
+                <li>
+                  <span> 09/2019 – 12/2021 </span><br />E-commerce Master
+                  degree<br />
+                  At higher institute of management Gabes, Tunisia
+                </li>
+                <li>
+                  <span> 09/2016 – 06/2019 ]</span><br />IT management
+                  Bachelor's degree <br />At higher institute of management
+                  Gabes, Tunisia
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span> 05/2023 – 04/2024 </span><br />
+                  Project coordinator at service civil international
+                </li>
+                <li>
+                  <span>12/2021 – 04/2023</span><br />
+                  IT Manager at Lassoued painting company
+                </li>
+                <li>
+                  <span>01/2019 – 04/2019</span><br />
+                  Game Developer Intern at Mobge LTD
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-      <a href="https://github.com/alasaidi" target="_blank" class="btn">See More <i class="fa-brands fa-github"></i></a>
     </div>
-  </div>
-  <!-- -------------------contact------------------ -->
-  <div id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="contact-left">
-          <h1 class="sub-title">Contact Me</h1>
-          <p><i class="fa-solid fa-envelope"></i>alasaidi55@gmail.com</p>
-          <p><i class="fa-solid fa-phone"></i>+21654488272</p>
-          <div class="social-icons">
-            <a href="https://www.facebook.com/ala.saidi.58"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com/ala.saidi_/"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/ala-saidi-898616176/">
-              <i class="fa-brands fa-linkedin"></i></a>
+    <!-- -------------------services---------------- -->
+    <div id="services">
+      <div class="container animated-element">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list ">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>web Development</h2>
+            <p>
+              Developing comprehensive web applications using the MERN (MongoDB,
+              Express.js, React, Node.js) stack. Leveraging MongoDB for flexible
+              and scalable database management, React for dynamic and responsive
+              user interfaces, and Node.js for efficient server-side JavaScript
+              runtime. Responsibilities include designing and implementing
+              RESTful APIs, creating interactive front-end components and
+              ensuring seamless data flow between client and server. The work
+              involves building scalable, high-performance single-page
+              applications that provide rich user experiences and efficient data
+              handling across the full stack.
+            </p>
           </div>
-          <a href="./style/images/CV.pdf" download class="btn btn2">Download CV</a>
-        </div>
-        <div class="contact-right">
-          <form name="submit-to-google-sheet">
-            <input type="text" name="Name" placeholder="Your Name" required />
-            <input type="email" name="Email" placeholder="Your Email" required />
-            <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
-            <button type="submit" class="btn btn2">Submit</button>
-          </form>
-          <span id="msg"></span>
+          <div>
+            <i class="fa-solid fa-gamepad"></i>
+            <h2>Game Development</h2>
+            <p>
+              Developing interactive video games across platforms like mobile,
+              console, and PC. Using languages like C#, Java, game engines like
+              Unity are utilized to program game logic, mechanics, systems, and
+              Gameplay features. Responsibilities include designing and
+              implementing game physics, artificial intelligence, level design,
+              user interfaces, controls, animations, audio integration, and
+              visual effects.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="copyright">
-    <p>Developed by Ala Saidi &copy; <i class="fa-solid fa-heart"></i></p>
+    <!-- -------------------Portfolio---------------- -->
+    <div id="portfolio">
+      <div class="container animated-element">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="./public/assets/work-1.png" alt="work1" />
+            <div class="layer">
+              <h3>McLaren Website Landing Page</h3>
+              <p>
+                Sleek Sports Car Website Landing Page: HTML, CSS, JS, Carousel!
+                🏎️✨
+              </p>
+              <a href="https://github.com/alasaidi/McLaren-Website-Landing-Page" target="_blank"><i
+                  class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./public/assets/work-3.png" alt="work2" />
+            <div class="layer">
+              <h3>Weather App</h3>
+              <p>
+                Weather app allows users to check the weather for any of their
+                favorite cities. All cities that are saved to Core Data will be
+                listed on the initial view controller.
+              </p>
+              <a href="https://github.com/alasaidi/Weather-App" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./public/assets/dragonball-api.PNG" alt="work3" />
+            <div class="layer">
+              <h3>My Portfolio</h3>
+              <p>
+                This project showcases the usage of the Dragon Ball API
+                (https://dragonball-api.com/api/characters) to fetch and display
+                character information from the popular anime series Dragon Ball.
+              </p>
+              <a href="https://github.com/alasaidi/dragonball-api" target="_blank"><i
+                  class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/alasaidi" target="_blank" class="btn">See More <i
+            class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+    <!-- -------------------contact------------------ -->
+    <div id="contact">
+      <div class="container animated-element">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>alasaidi55@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+21654488272</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/ala.saidi.58"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/ala.saidi_/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/ala-saidi-898616176/">
+                <i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="./style/images/CV.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input type="email" name="Email" placeholder="Your Email" required />
+              <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>Developed by Ala Saidi &copy; <i class="fa-solid fa-heart"></i></p>
+    </div>
   </div>
   <script src="./src/main.js"></script>
 </body>
